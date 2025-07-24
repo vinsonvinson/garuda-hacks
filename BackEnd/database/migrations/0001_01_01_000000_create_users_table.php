@@ -19,7 +19,9 @@ return new class extends Migration
             $table->string('password');
             $table->integer('gems')->default(0);
             $table->integer('streak')->default(0);
-            $table->timestamp('last_login_at')->nullable();
+            $table->integer('highest_streak')->default(0);
+            $table->timestamp('last_learn_at')->nullable();
+            $table->boolean('is_validated')->default(false);
             $table->rememberToken();
             $table->timestamps();
         });
@@ -38,6 +40,13 @@ return new class extends Migration
             $table->longText('payload');
             $table->integer('last_activity')->index();
         });
+
+        Schema::create('otp', function (Blueprint $table) {
+            $table->id();
+            $table->string('email')->index();
+            $table->string('otp');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -48,5 +57,6 @@ return new class extends Migration
         Schema::dropIfExists('users');
         Schema::dropIfExists('password_reset_tokens');
         Schema::dropIfExists('sessions');
+        Schema::dropIfExists('otp');
     }
 };

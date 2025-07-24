@@ -11,7 +11,7 @@ class Quiz extends Model
 
     protected $table = "quiz";
 
-    protected $fillable = ["question", "type_id", "module_id", "answer"];
+    protected $fillable = ["question", "type_id", "module_id", "answer", "is_learning", "javanese_type_id", "concept"];
 
     public function module()
     {
@@ -26,5 +26,10 @@ class Quiz extends Model
     public function choices()
     {
         return $this->hasMany(Choice::class, "quiz_id");
+    }
+    
+    public function javaneseType()
+    {
+        return $this->belongsTo(JavaneseType::class, "javanese_type_id");
     }
 }

@@ -16,7 +16,10 @@ return new class extends Migration
             $table->text('question');
             $table->integer('type_id');
             $table->integer('module_id');
+            $table->integer('javanese_type_id');
             $table->string('answer');
+            $table->boolean('is_learning');
+            $table->string('concept')->nullable();
             $table->timestamps();
         });
     }

@@ -13,8 +13,8 @@ class JavaneseType extends Model
 
     protected $fillable = ["name"];
 
-    public function modules()
+    public function completed()
     {
-        return $this->hasMany(Module::class, "javanese_type_id");
+        return $this->hasMany(Completed::class, "javanese_type_id");
     }
 }

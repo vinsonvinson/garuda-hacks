@@ -11,9 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('module', function (Blueprint $table) {
+        Schema::create('streak', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
+            $table->integer('user_id');
+            $table->timestamp('date_time');
             $table->timestamps();
         });
     }
@@ -23,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('module');
+        Schema::dropIfExists('streak');
     }
 };
