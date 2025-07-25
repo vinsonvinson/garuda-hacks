@@ -17,6 +17,14 @@ class ModuleSeeder extends Seeder
         Module::insert([
             ["title" => "Greetings"],
             ["title" => "Introductions"],
+            ["title" => "Food & Hospitality"],
+            ["title" => "Basic Transactions"],
+            ["title" => "Getting Around"],
+            ["title" => "Expressing Oneself"],
+            ["title" => "Making Plans"],
+            ["title" => "Daily Life Scenarios"],
+            ["title" => "Deeper Conversations"],
+            ["title" => "Narative"],
         ]);
     }
 }

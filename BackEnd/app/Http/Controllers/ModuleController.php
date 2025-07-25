@@ -20,6 +20,9 @@ class ModuleController extends Controller
         $module = Module::orderBy("id")->get();
 
         foreach ($module as $value) {
+            $value->img_url = asset("module-icon/" . $value->id. ".png");
+            $value->title = $value->id . '. ' . $value->title;
+
             $value->type = $javanese_type->map(fn($item) => clone $item);
 
             foreach ($value->type as $type) {
