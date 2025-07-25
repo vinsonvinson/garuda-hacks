@@ -12,12 +12,14 @@ const props = defineProps({
     isChallenge: Boolean,
     score: Number,
     moduleId: Number,
-    typeId: Number
+    typeId: Number,
+    module: Object,
+    javaneseType: Object
 });
 
 const emit = defineEmits(['submitAnswer', 'nextQuestion', 'finishQuiz', 'resetQuiz']);
 
-const router = useRouter(); // Inisialisasi router
+const router = useRouter();
 
 const selectedAnswer = ref(null);
 const textAnswer = ref('');
@@ -29,8 +31,8 @@ const userWrongAnswer = ref(null);
 const answerState = ref('unanswered');
 const correctAnswerFromServer = ref(null);
 const hasUsedAskAI = ref(false);
-const javaneseTypeName = computed(() => props.questionData.javanese_type_name || 'Ngoko');
-const moduleTypeTitle = computed(() => props.questionData.module_type_title || 'Nyapa Konco');
+const javaneseTypeName = computed(() => props.javaneseType?.name);
+const moduleTypeTitle = computed(() => props.module?.type_title);
 
 
 const isLoading = ref(false); 
@@ -135,7 +137,7 @@ watch(showAskAIButton, (val) => {
         </div>
         <!-- Buat header card -->
         <div class="mb-6 flex flex-col items-center">
-          <div class="text-3xl font-bold text-gray-700">
+          <div class="text-3xl font-bold text-gray-700 text-center">
             {{ javaneseTypeName }} - {{ moduleTypeTitle }}
           </div>
           <div class="mt-1 text-xl font-semibold text-orange-600 px-3 py-1 rounded-full bg-orange-50">

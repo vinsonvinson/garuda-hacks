@@ -14,12 +14,17 @@ const currentQuestionIndex = ref(0);
 const score = ref(0);
 const userAnswers = ref([]);
 
+const module = ref(null);
+const javanese_type = ref(null);
+
 // Data Fetching
 onMounted(async () => {
   const { moduleId, typeId } = route.params;
   try {
     const response = await ModuleService.getQuestion(moduleId, typeId);
     allQuestions.value = response.data.questions;
+    module.value = response.data.module;
+    javanese_type.value = response.data.javanese_type;
 
     // Mulai alur setelah data didapat
     setTimeout(() => {
@@ -110,6 +115,8 @@ function handleContinueToChallenge() {
       @submit-answer="handleAnswerSubmit"
       :moduleId="route.params.moduleId"
       :typeId="route.params.typeId"
+      :module="module"
+        :javaneseType="javanese_type"
     />
     
     <ModalQuiz 
