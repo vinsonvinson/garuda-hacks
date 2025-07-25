@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Completed;
 use App\Models\JavaneseType;
 use App\Models\Module;
+use App\Models\Quiz;
 use App\Models\Streak;
 use App\Models\User;
 use Carbon\Carbon;
@@ -20,8 +21,8 @@ class ModuleController extends Controller
         $module = Module::orderBy("id")->get();
 
         foreach ($module as $value) {
-            $value->img_url = asset("module-icon/" . $value->id. ".png");
-            $value->title = $value->id . '. ' . $value->title;
+            $value->img_url = asset("module-icon/" . $value->id . ".png");
+            $value->title = $value->id . ". " . $value->title;
 
             $value->type = $javanese_type->map(fn($item) => clone $item);
 
@@ -56,7 +57,8 @@ class ModuleController extends Controller
                     "Y-m-d"
                 );
             })
-            ->values()->toArray();
+            ->values()
+            ->toArray();
 
         // Hasil array
         $week = [];
@@ -96,6 +98,40 @@ class ModuleController extends Controller
             "module" => $module,
             "javanese_type" => $javanese_type,
             "questions" => $questions,
+        ]);
+    }
+
+    public function checkAnswer(Request $request)
+    {
+        $request->validate([
+            "question_id" => "required|exists:quiz,id",
+            "answer" => "required|string",
+        ]);
+
+        $question = Quiz::findOrFail($request->question_id);
+
+        // Normalisasi jawaban (hilangkan tanda baca, spasi ekstra, dan jadikan huruf kecil)
+        $cleanDbAnswer = strtolower(
+            preg_replace("/[^\p{L}\p{N}\s]/u", "", $question->answer)
+        );
+        $cleanUserAnswer = strtolower(
+            preg_replace("/[^\p{L}\p{N}\s]/u", "", $request->answer)
+        );
+
+        // Opsional: hilangkan spasi di awal/akhir dan spasi ganda
+        $cleanDbAnswer = preg_replace("/\s+/", " ", trim($cleanDbAnswer));
+        $cleanUserAnswer = preg_replace("/\s+/", " ", trim($cleanUserAnswer));
+
+        if ($cleanDbAnswer === $cleanUserAnswer) {
+            return response()->json([
+                "message" => "Correct answer!",
+                "is_correct" => true,
+            ]);
+        }
+
+        return response()->json([
+            "message" => "Incorrect answer.",
+            "is_correct" => false,
         ]);
     }
 

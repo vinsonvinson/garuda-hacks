@@ -28,6 +28,9 @@ Route::middleware("auth:sanctum")->group(function () {
 
     Route::get("/module", [ModuleController::class, "index"]);
     Route::get("/question/{module_id}/{javanese_type_id}", [ModuleController::class, "question"]);
+
+    Route::post("/check-answer", [ModuleController::class, "checkAnswer"]);
+
     Route::post("/finish-module", [ModuleController::class, "finishModule"]);
 
     Route::post("/ask-ai-feedback", [AIController::class, "askFeedback"]);
