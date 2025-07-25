@@ -255,7 +255,7 @@ const handleForgotPassword = () => {
 
                     <!-- Bagian Forgot Password -->
                     <div class="text-right mt-1 mb-6" v-if="props.pageType === 'login'">
-                        <a @click.prevent="handleForgotPassword" href="#" class="text-sm text-blue-600 hover:underline">Forgot Password</a>
+                        <a @click.prevent="handleForgotPassword" href="#" class="text-sm text-[#f0a24f] hover:underline">Forgot Password</a>
                     </div>
 
                     <!-- Bagian Submit -->
@@ -268,7 +268,7 @@ const handleForgotPassword = () => {
 
                     <p class="mt-8 text-center text-sm text-gray-600" v-if="props.pageType !== 'emailInput'">
                         {{ alternateActionText }}
-                        <a @click.prevent="handleAlternateAction" href="#" class="font-semibold text-blue-600 hover:underline">{{ alternateActionLinkText }}</a>
+                        <a @click.prevent="handleAlternateAction" href="#" class="font-semibold text-[#f0a24f] hover:underline">{{ alternateActionLinkText }}</a>
                     </p>
                 </Form>
             </div>

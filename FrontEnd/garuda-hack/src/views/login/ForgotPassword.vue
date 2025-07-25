@@ -6,6 +6,8 @@ import {config} from '../../config.js';
 import { useRoute, useRouter } from 'vue-router';
 import Swal from 'sweetalert2';
 import AuthService from '@/service/AuthService.js';
+import BgLogin from '../../assets/img/bg_login.png';
+import ImgForm from '../../assets/img/image_form.png';
 
 const route = useRoute();
 const router = useRouter();
@@ -55,10 +57,10 @@ const onSubmit = async (values) => {
 </script>
 
 <template>
-    <div class="flex items-center justify-center min-h-screen bg-blue-500">
+    <div class="flex items-center justify-center min-h-screen" :style="`background: url('${BgLogin}') center center / cover no-repeat`">
         <div class="flex w-full max-w-4xl bg-white rounded-2xl shadow-xl overflow-hidden">
             <!-- Untuk bagian kanan -->
-            <div class="hidden md:block md:basis-[45%] bg-gray-100 rounded-tr-[250px] rounded-br-[250px]">
+            <div class="hidden md:block md:basis-[45%] rounded-tr-[250px] rounded-br-[250px]" :style="`background: url('${ImgForm}') center center / cover no-repeat`">
 
             </div>
 
@@ -85,7 +87,7 @@ const onSubmit = async (values) => {
 
                     <button
                         type="submit"
-                        class="w-full py-3 mt-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors"
+                        class="w-full py-3 mt-4 bg-[#f0a24f] text-white font-semibold rounded-lg hover:bg-[#eac585] focus:outline-none focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 transition-colors"
                     >
                         Update Password
                     </button>

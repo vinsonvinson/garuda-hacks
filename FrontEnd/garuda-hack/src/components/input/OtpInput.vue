@@ -1,24 +1,3 @@
-<template>
-  <div class="mb-4">
-    <div class="flex items-center justify-center gap-2 sm:gap-3">
-      <template v-for="i in digitCount" :key="i">
-        <input
-          :ref="(el) => { if (el) inputRefs[i - 1] = el }"
-          v-model="digits[i - 1]"
-          type="tel"
-          maxlength="1"
-          class="w-12 h-14 sm:w-14 sm:h-16 text-center text-2xl font-semibold border rounded-lg focus:outline-none focus:ring-2 transition"
-          :class="errorMessage ? 'border-red-500 focus:ring-red-500 focus:border-red-500' : 'border-gray-300 focus:ring-blue-500 focus:border-blue-500'"
-          @input="handleInput(i)"
-          @keydown="handleKeyDown(i, $event)"
-          @paste="handlePaste"
-        />
-      </template>
-    </div>
-    <p v-if="errorMessage" class="text-red-600 text-sm mt-2 text-center">{{ errorMessage }}</p>
-  </div>
-</template>
-
 <script setup>
 import { ref, reactive, computed, watch, onMounted } from 'vue';
 import { useField } from 'vee-validate';
@@ -86,3 +65,24 @@ onMounted(() => {
   inputRefs.value[0]?.focus();
 });
 </script>
+
+<template>
+  <div class="mb-4">
+    <div class="flex items-center justify-center gap-2 sm:gap-3">
+      <template v-for="i in digitCount" :key="i">
+        <input
+          :ref="(el) => { if (el) inputRefs[i - 1] = el }"
+          v-model="digits[i - 1]"
+          type="tel"
+          maxlength="1"
+          class="w-12 h-14 sm:w-14 sm:h-16 text-center text-2xl font-semibold border rounded-lg focus:outline-none focus:ring-2 transition"
+          :class="errorMessage ? 'border-red-500 focus:ring-red-500 focus:border-red-500' : 'border-gray-300 focus:ring-[#f59e0b] focus:border-[#f59e0b]'"
+          @input="handleInput(i)"
+          @keydown="handleKeyDown(i, $event)"
+          @paste="handlePaste"
+        />
+      </template>
+    </div>
+    <p v-if="errorMessage" class="text-red-600 text-sm mt-2 text-center">{{ errorMessage }}</p>
+  </div>
+</template>

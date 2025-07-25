@@ -61,7 +61,7 @@ const navigateToLearning = () => {
               © 2025 IsoJowo. All Rights Reserved.
             </p>
             <p class="text-orange-300 text-xs">
-              Made with ❤️ for Garuda Hacks 5.0
+              Made with ❤️ for Garuda Hacks 6.0
             </p>
           </div>
         </div>
