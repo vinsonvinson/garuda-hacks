@@ -8,7 +8,7 @@ import ModalQuestion from '../components/base/ModalQuestion.vue';
 const route = useRoute();
 
 // State management
-const quizState = ref('intro_practice'); 
+const quizState = ref('loading'); 
 const allQuestions = ref([]);
 const currentQuestionIndex = ref(0);
 const score = ref(0);
@@ -81,28 +81,32 @@ function handleContinueToChallenge() {
   quizState.value = 'in_challenge';
 }
 
-// onMounted(async () => {
-//   const { moduleId, typeId } = route.params;
-//   try {
-//     const response = await ModuleService.getQuestion(moduleId, typeId);
-//     allQuestions.value = response.data.questions;
-//     console.log('Soal didapat:', allQuestions.value); // Debug
-//     console.log('Practice:', practiceQuestions.value); // Debug
-//     console.log('Challenge:', challengeQuestions.value); // Debug
+onMounted(async () => {
+  const { moduleId, typeId } = route.params;
+  try {
+    const response = await ModuleService.getQuestion(moduleId, typeId);
+    allQuestions.value = response.data.questions;
+    module.value = response.data.module;
+    javanese_type.value = response.data.javanese_type;
 
-//     setTimeout(() => {
-//       quizState.value = 'in_practice';
-//       console.log('Quiz state:', quizState.value); // Debug
-//     }, 1500); 
-    
-//   } catch (error) {
-//     console.error("Gagal mengambil data kuis:", error);
-//   }
-// });
+    setTimeout(() => {
+      if (practiceQuestions.value.length === 0) {
+        quizState.value = 'in_challenge';
+      } else {
+        quizState.value = 'intro_practice';
+      }
+    }, 1500); 
+  } catch (error) {
+    console.error("Gagal mengambil data kuis:", error);
+  }
+});
 </script>
 
 <template>
   <div>
+    <div v-if="quizState === 'loading'" class="flex items-center justify-center min-h-screen bg-white/80 z-50">
+      <div class="loader"></div>
+    </div>
     <ModalQuiz v-if="quizState === 'intro_practice'" title="Practice" />
     
     <ModalQuestion
@@ -129,3 +133,18 @@ function handleContinueToChallenge() {
     <ModalQuiz v-if="quizState === 'complete'" title="Quiz Selesai!" />
   </div>
 </template>
+
+<style scoped>
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #f59e42;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+}
+</style>

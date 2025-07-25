@@ -202,7 +202,7 @@ watch(showAskAIButton, (val) => {
           </div>
         </div>
       
-<div class="mt-8 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
+    <div class="mt-8 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
   <div v-if="isChallenge" class="bg-gray-800 text-white font-bold px-6 py-2 rounded-lg text-center sm:text-left">
     SCORE: {{ score }}%
   </div>
