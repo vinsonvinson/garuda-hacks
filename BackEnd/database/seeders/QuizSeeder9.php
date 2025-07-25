@@ -20,7 +20,7 @@ class QuizSeeder9 extends Seeder
             // Learning Phase - Ngoko
             // Concept: Kesenenganmu apa? (What's your hobby?)
             [
-                "question" => 'How do you ask a friend about their hobby?',
+                "question" => "How do you ask a friend about their hobby?",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Kesenenganmu apa?",
@@ -70,7 +70,8 @@ class QuizSeeder9 extends Seeder
             ],
             // Concept: Wis suwe. (A long time.)
             [
-                "question" => 'If you\'ve had a hobby for a long time, you say:',
+                "question" =>
+                    'If you\'ve had a hobby for a long time, you say:',
                 "module_id" => 9,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Wis suwe.",
@@ -80,7 +81,7 @@ class QuizSeeder9 extends Seeder
             ],
             // Concept: Seru! (Awesome!/Fun!)
             [
-                "question" => 'A casual way to say something is fun is:',
+                "question" => "A casual way to say something is fun is:",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Seru!",
@@ -91,7 +92,7 @@ class QuizSeeder9 extends Seeder
 
             // Final Quiz - Ngoko
             [
-                "question" => 'Wiwit kapan? means...',
+                "question" => "Wiwit kapan? means...",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Since when?",
@@ -109,7 +110,7 @@ class QuizSeeder9 extends Seeder
                 "javanese_type_id" => 1, // Ngoko
             ],
             [
-                "question" => 'The phrase Wis suwe means...',
+                "question" => "The phrase Wis suwe means...",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "A long time",
@@ -167,7 +168,7 @@ class QuizSeeder9 extends Seeder
 
             // Learning Phase - Krama Madya
             [
-                "question" => 'How do you politely ask about the weather?',
+                "question" => "How do you politely ask about the weather?",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Hawane pripun?",
@@ -194,7 +195,7 @@ class QuizSeeder9 extends Seeder
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'If you see dark clouds, you might say:',
+                "question" => "If you see dark clouds, you might say:",
                 "module_id" => 9,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Badhe jawah.",
@@ -221,7 +222,7 @@ class QuizSeeder9 extends Seeder
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'The opposite of Mendung is:',
+                "question" => "The opposite of Mendung is:",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Cerah.",
@@ -232,7 +233,7 @@ class QuizSeeder9 extends Seeder
 
             // Final Quiz - Krama Madya
             [
-                "question" => 'Badhe jawah means...',
+                "question" => "Badhe jawah means...",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "It\'s going to rain",
@@ -250,7 +251,7 @@ class QuizSeeder9 extends Seeder
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'The word Cerah means...',
+                "question" => "The word Cerah means...",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Clear/Sunny",
@@ -259,7 +260,7 @@ class QuizSeeder9 extends Seeder
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'How do you politely ask about the weather?',
+                "question" => "How do you politely ask about the weather?",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Hawane pripun?",
@@ -308,7 +309,8 @@ class QuizSeeder9 extends Seeder
 
             // Learning Phase - Krama Inggil
             [
-                "question" => 'To respectfully ask for an elder\'s opinion, you say:',
+                "question" =>
+                    'To respectfully ask for an elder\'s opinion, you say:',
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Nyuwun priksa.",
@@ -317,16 +319,18 @@ class QuizSeeder9 extends Seeder
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'You start a question about their view with:',
+                "question" => "You start a question about their view with:",
                 "module_id" => 9,
                 "type_id" => 2, // Fill in the Blank
-                "answer" => "Miturut pamanggih panjenengan...",
+                "answer" => "Miturut pamanggih panjenengan",
                 "is_learning" => true,
-                "concept" => "Miturut pamanggih panjenengan... (According to your opinion...)",
+                "concept" =>
+                    "Miturut pamanggih panjenengan... (According to your opinion...)",
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'After receiving advice, you show your intent to follow it by saying:',
+                "question" =>
+                    "After receiving advice, you show your intent to follow it by saying:",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Kula estokaken.",
@@ -344,7 +348,8 @@ class QuizSeeder9 extends Seeder
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'How do you say the advice will be a lesson for you?',
+                "question" =>
+                    "How do you say the advice will be a lesson for you?",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Dadosaken piwulang.",
@@ -353,27 +358,29 @@ class QuizSeeder9 extends Seeder
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'To quote what an elder said, you start with:',
+                "question" => "To quote what an elder said, you start with:",
                 "module_id" => 9,
                 "type_id" => 2, // Fill in the Blank
-                "answer" => "Ngendikanipun...",
+                "answer" => "Ngendikanipun",
                 "is_learning" => true,
                 "concept" => "Ngendikanipun... (He/She said...)",
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'The best way to thank an elder for their advice is:',
+                "question" =>
+                    "The best way to thank an elder for their advice is:",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Matur sembah nuwun.",
                 "is_learning" => true,
-                "concept" => "Matur sembah nuwun. (Thank you very much - highest form.)",
+                "concept" =>
+                    "Matur sembah nuwun. (Thank you very much - highest form.)",
                 "javanese_type_id" => 3, // Krama Inggil
             ],
 
             // Final Quiz - Krama Inggil
             [
-                "question" => 'Kula estokaken means...',
+                "question" => "Kula estokaken means...",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "I will obey/follow it",
@@ -382,7 +389,7 @@ class QuizSeeder9 extends Seeder
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'To respectfully ask for an opinion, you say:',
+                "question" => "To respectfully ask for an opinion, you say:",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Nyuwun priksa.",
@@ -391,7 +398,7 @@ class QuizSeeder9 extends Seeder
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'The phrase Pitutur luhur means...',
+                "question" => "The phrase Pitutur luhur means...",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Noble advice",
@@ -400,25 +407,27 @@ class QuizSeeder9 extends Seeder
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'How do you respectfully quote what an elder said?',
+                "question" =>
+                    "How do you respectfully quote what an elder said?",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Ngendikanipun...",
+                "answer" => "Ngendikanipun",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'To say "According to your opinion...", you say:',
+                "question" => 'To say "According to your opinion", you say:',
                 "module_id" => 9,
                 "type_id" => 2, // Fill in the Blank
-                "answer" => "Miturut pamanggih panjenengan...",
+                "answer" => "Miturut pamanggih panjenengan",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'To say the advice will be a lesson for you, you say:',
+                "question" =>
+                    "To say the advice will be a lesson for you, you say:",
                 "module_id" => 9,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Dadosaken piwulang.",
@@ -447,7 +456,8 @@ class QuizSeeder9 extends Seeder
 
             // Lesson 9.4: Gladhen Wicara (Conversation Practice)
             [
-                "question" => 'You are chatting with a new friend and want to ask about their hobbies. You say:',
+                "question" =>
+                    "You are chatting with a new friend and want to ask about their hobbies. You say:",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Kesenenganmu apa?",
@@ -456,7 +466,8 @@ class QuizSeeder9 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'You are making small talk with a colleague while waiting for a meeting. You look outside and say:',
+                "question" =>
+                    "You are making small talk with a colleague while waiting for a meeting. You look outside and say:",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Hawane panas sanget, nggih.",
@@ -465,7 +476,8 @@ class QuizSeeder9 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'You have asked your grandfather for life advice. After he shares his wisdom, you say:',
+                "question" =>
+                    "You have asked your grandfather for life advice. After he shares his wisdom, you say:",
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Matur sembah nuwun, kula estokaken.",
@@ -474,7 +486,8 @@ class QuizSeeder9 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'Your friend says they\'ve been learning to play the guitar for a long time. They say:',
+                "question" =>
+                    'Your friend says they\'ve been learning to play the guitar for a long time. They say:',
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Wis suwe.",
@@ -483,7 +496,8 @@ class QuizSeeder9 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'A student is respectfully asking their professor for an opinion. They say: "Pak, miturut pikiranmu pripun?" Which word is too casual for a professor?',
+                "question" =>
+                    'A student is respectfully asking their professor for an opinion. They say: "Pak, miturut pikiranmu pripun?" Which word is too casual for a professor?',
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "pikiranmu",
@@ -492,7 +506,8 @@ class QuizSeeder9 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'You are talking to your boss about the weather. You say: "Bu, hawane adem banget." Which phrase, while understandable, could be more formal?',
+                "question" =>
+                    'You are talking to your boss about the weather. You say: "Bu, hawane adem banget." Which phrase, while understandable, could be more formal?',
                 "module_id" => 9,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "adem banget",
@@ -501,7 +516,8 @@ class QuizSeeder9 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'To say "It\'s going to rain" to a colleague, you say: Badhe ______',
+                "question" =>
+                    'To say "It\'s going to rain" to a colleague, you say: Badhe ______',
                 "module_id" => 9,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "jawah",
@@ -510,7 +526,8 @@ class QuizSeeder9 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'A respectful term for an elder\'s advice is: Pitutur ______',
+                "question" =>
+                    'A respectful term for an elder\'s advice is: Pitutur ______',
                 "module_id" => 9,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "luhur",

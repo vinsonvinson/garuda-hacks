@@ -106,7 +106,6 @@ class ChoiceSeeder8 extends Seeder
             ],
             // Quiz ID 386: (FIB - no choices)
 
-
             // Lesson 8.2: Krama Madya - Ing Kantor (At the Office)
             // Learning Phase - Krama Madya
             // Quiz ID 387: "How do you inform a colleague about a meeting?" (MC)
@@ -199,7 +198,6 @@ class ChoiceSeeder8 extends Seeder
             ],
             // Quiz ID 401: (FIB - no choices)
 
-
             // Lesson 8.3: Krama Inggil - Ing Pawiwahan (At a Formal Ceremony)
             // Learning Phase - Krama Inggil
             // Quiz ID 402: "How do you welcome a respected guest to a ceremony?" (MC)
@@ -215,11 +213,11 @@ class ChoiceSeeder8 extends Seeder
             // Quiz ID 404: "To start a hopeful wish or prayer, you say:" (MC)
             [
                 "quiz_id" => 404,
-                "text" => "Mugi-mugi...",
+                "text" => "Mugi-mugi",
             ],
             [
                 "quiz_id" => 404,
-                "text" => "Menawi...",
+                "text" => "Menawi",
             ],
             // Quiz ID 405: (FIB - no choices)
             // Quiz ID 406: "An elder gives their blessing. This action is called:" (MC)
@@ -291,7 +289,6 @@ class ChoiceSeeder8 extends Seeder
                 "text" => "Ngaturi",
             ],
             // Quiz ID 416: (FIB - no choices)
-
 
             // Lesson 8.4: Gladhen Kahanan (Situational Practice)
             // Quiz ID 417: "You did well on an exam and want to tell your friend." (MC)

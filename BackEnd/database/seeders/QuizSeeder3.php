@@ -91,7 +91,7 @@ class QuizSeeder3 extends Seeder
 
             // Final Quiz - Ngoko
             [
-                "question" => "Aku ngelak. means...",
+                "question" => "Aku ngelak. means",
                 "module_id" => 3,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "I\'m thirsty",
@@ -109,7 +109,7 @@ class QuizSeeder3 extends Seeder
                 "javanese_type_id" => 1, // Ngoko
             ],
             [
-                "question" => "The word Pesen means...",
+                "question" => "The word Pesen means",
                 "module_id" => 3,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "To order",
@@ -234,7 +234,7 @@ class QuizSeeder3 extends Seeder
 
             // Final Quiz - Krama Madya
             [
-                "question" => "Eco means...",
+                "question" => "Eco means",
                 "module_id" => 3,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Delicious",
@@ -252,7 +252,7 @@ class QuizSeeder3 extends Seeder
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => "The phrase Monggo pinarak means...",
+                "question" => "The phrase Monggo pinarak means",
                 "module_id" => 3,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Please have a seat",
@@ -377,7 +377,7 @@ class QuizSeeder3 extends Seeder
 
             // Final Quiz - Krama Inggil
             [
-                "question" => "Dhaharan is the respectful word for...",
+                "question" => "Dhaharan is the respectful word for",
                 "module_id" => 3,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Food",
@@ -395,7 +395,7 @@ class QuizSeeder3 extends Seeder
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => "The phrase Tambah malih means...",
+                "question" => "The phrase Tambah malih means",
                 "module_id" => 3,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Have some more",

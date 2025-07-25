@@ -215,11 +215,11 @@ class ChoiceSeeder5 extends Seeder
             // Quiz ID 245: "How do you respectfully ask for the way to a place?" (MC)
             [
                 "quiz_id" => 245,
-                "text" => "Lek arep nang...",
+                "text" => "Lek arep nang",
             ],
             [
                 "quiz_id" => 245,
-                "text" => "Menawi tindak dhateng...",
+                "text" => "Menawi tindak dhateng",
             ],
             // Quiz ID 246: (FIB - no choices)
             // Quiz ID 247: "The respectful word for 'to ride' is:" (MC)
@@ -273,11 +273,11 @@ class ChoiceSeeder5 extends Seeder
             // Quiz ID 253: "How do you respectfully ask for the way to a place?" (MC)
             [
                 "quiz_id" => 253,
-                "text" => "Arep nang...",
+                "text" => "Arep nang",
             ],
             [
                 "quiz_id" => 253,
-                "text" => "Menawi tindak dhateng...",
+                "text" => "Menawi tindak dhateng",
             ],
             // Quiz ID 254: (FIB - no choices)
             // Quiz ID 255: (FIB - no choices)
@@ -323,15 +323,15 @@ class ChoiceSeeder5 extends Seeder
             // Quiz ID 260: "You are asking a respected elder for directions to the main mosque. You start your question with:" (MC)
             [
                 "quiz_id" => 260,
-                "text" => "Pak, arep takon...",
+                "text" => "Pak, arep takon",
             ],
             [
                 "quiz_id" => 260,
-                "text" => "Pak, badhe tanglet...",
+                "text" => "Pak, badhe tanglet",
             ],
             [
                 "quiz_id" => 260,
-                "text" => "Pak, nyuwun pangapunten, badhe nyuwun pirsa...",
+                "text" => "Pak, nyuwun pangapunten, badhe nyuwun pirsa",
             ],
             // Quiz ID 261: "An elder tells you that the place you are looking for is far. Which word would they most likely use?" (MC)
             [

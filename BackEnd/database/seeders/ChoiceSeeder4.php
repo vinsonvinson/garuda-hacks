@@ -23,7 +23,7 @@ class ChoiceSeeder4 extends Seeder
             ],
             [
                 "quiz_id" => 160,
-                "text" => "Larane...",
+                "text" => "Larane",
             ],
             // Quiz ID 161: (FIB - no choices)
             // Quiz ID 162: "How do you ask for a discount?" (MC)
@@ -49,7 +49,7 @@ class ChoiceSeeder4 extends Seeder
             // Quiz ID 166: "After a successful bargain, you can say:" (MC)
             [
                 "quiz_id" => 166,
-                "text" => "Larane...",
+                "text" => "Larane",
             ],
             [
                 "quiz_id" => 166,
@@ -64,7 +64,7 @@ class ChoiceSeeder4 extends Seeder
             ],
             [
                 "quiz_id" => 167,
-                "text" => "So expensive...",
+                "text" => "So expensive",
             ],
             // Quiz ID 168: "How do you say 'I'll buy this'?" (MC)
             [

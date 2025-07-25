@@ -20,7 +20,7 @@ class QuizSeeder8 extends Seeder
             // Learning Phase - Ngoko
             // Concept: Sinau bareng. (Study together.)
             [
-                "question" => 'How do you invite friends to study together?',
+                "question" => "How do you invite friends to study together?",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Ayo sinau bareng.",
@@ -30,7 +30,7 @@ class QuizSeeder8 extends Seeder
             ],
             // Concept: PR-e angel. (The homework is difficult.)
             [
-                "question" => 'When the homework is hard, you say:',
+                "question" => "When the homework is hard, you say:",
                 "module_id" => 8,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "PR-e angel.",
@@ -50,7 +50,7 @@ class QuizSeeder8 extends Seeder
             ],
             // Concept: Mbolos. (To skip class.)
             [
-                "question" => 'The casual term for skipping class is:',
+                "question" => "The casual term for skipping class is:",
                 "module_id" => 8,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Mbolos.",
@@ -60,7 +60,7 @@ class QuizSeeder8 extends Seeder
             ],
             // Concept: Gurune galak. (The teacher is fierce.)
             [
-                "question" => 'If the teacher is strict, you might say:',
+                "question" => "If the teacher is strict, you might say:",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Gurune galak.",
@@ -80,7 +80,7 @@ class QuizSeeder8 extends Seeder
             ],
             // Concept: Kantin, yuk! (Let's go to the canteen!)
             [
-                "question" => 'How do you invite a friend to the canteen?',
+                "question" => "How do you invite a friend to the canteen?",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Kantin, yuk!",
@@ -91,7 +91,7 @@ class QuizSeeder8 extends Seeder
 
             // Final Quiz - Ngoko
             [
-                "question" => 'PR-e angel means...',
+                "question" => "PR-e angel means...",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "The homework is difficult",
@@ -109,7 +109,7 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 1, // Ngoko
             ],
             [
-                "question" => 'The word Mbolos means...',
+                "question" => "The word Mbolos means...",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "To skip class",
@@ -127,7 +127,7 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 1, // Ngoko
             ],
             [
-                "question" => 'To invite friends to study together, you say:',
+                "question" => "To invite friends to study together, you say:",
                 "module_id" => 8,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Ayo sinau bareng.",
@@ -154,7 +154,7 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 1, // Ngoko
             ],
             [
-                "question" => 'The casual term for skipping class is:',
+                "question" => "The casual term for skipping class is:",
                 "module_id" => 8,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Mbolos.",
@@ -167,7 +167,7 @@ class QuizSeeder8 extends Seeder
 
             // Learning Phase - Krama Madya
             [
-                "question" => 'How do you inform a colleague about a meeting?',
+                "question" => "How do you inform a colleague about a meeting?",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Wonten rapat.",
@@ -181,20 +181,22 @@ class QuizSeeder8 extends Seeder
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Sampun kula kerjakaken.",
                 "is_learning" => true,
-                "concept" => "Sampun kula kerjakaken. (I have already done it.)",
+                "concept" =>
+                    "Sampun kula kerjakaken. (I have already done it.)",
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'If you are going to be late, you should say:',
+                "question" => "If you are going to be late, you should say:",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Nyuwun ijin telat.",
                 "is_learning" => true,
-                "concept" => "Nyuwun ijin telat. (Asking for permission to be late.)",
+                "concept" =>
+                    "Nyuwun ijin telat. (Asking for permission to be late.)",
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'The term for working overtime is:',
+                "question" => "The term for working overtime is:",
                 "module_id" => 8,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Lembur.",
@@ -212,7 +214,7 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'If your schedule is full, you say:',
+                "question" => "If your schedule is full, you say:",
                 "module_id" => 8,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Jadwalipun padhet.",
@@ -221,18 +223,19 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'A polite way to end a work discussion is:',
+                "question" => "A polite way to end a work discussion is:",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Matur nuwun kerjasamanipun.",
                 "is_learning" => true,
-                "concept" => "Matur nuwun kerjasamanipun. (Thank you for your cooperation.)",
+                "concept" =>
+                    "Matur nuwun kerjasamanipun. (Thank you for your cooperation.)",
                 "javanese_type_id" => 2, // Krama Madya
             ],
 
             // Final Quiz - Krama Madya
             [
-                "question" => 'Lembur means...',
+                "question" => "Lembur means...",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Overtime",
@@ -250,7 +253,7 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'The phrase Sampun kula kerjakaken means...',
+                "question" => "The phrase Sampun kula kerjakaken means...",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "I have already done it",
@@ -259,7 +262,7 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'How do you ask for permission to be late?',
+                "question" => "How do you ask for permission to be late?",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Nyuwun ijin telat.",
@@ -268,7 +271,7 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'To inform about a meeting, you say:',
+                "question" => "To inform about a meeting, you say:",
                 "module_id" => 8,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Wonten rapat.",
@@ -286,7 +289,8 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'Which phrase means "Thank you for your cooperation"?',
+                "question" =>
+                    'Which phrase means "Thank you for your cooperation"?',
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Matur nuwun kerjasamanipun.",
@@ -295,7 +299,7 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'The term for working overtime is:',
+                "question" => "The term for working overtime is:",
                 "module_id" => 8,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Lembur.",
@@ -308,7 +312,8 @@ class QuizSeeder8 extends Seeder
 
             // Learning Phase - Krama Inggil
             [
-                "question" => 'How do you welcome a respected guest to a ceremony?',
+                "question" =>
+                    "How do you welcome a respected guest to a ceremony?",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Sugeng rawuh.",
@@ -317,25 +322,27 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'To congratulate the hosts of a wedding, you say:',
+                "question" =>
+                    "To congratulate the hosts of a wedding, you say:",
                 "module_id" => 8,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Nderek mangayubagya.",
                 "is_learning" => true,
-                "concept" => "Nderek mangayubagya. (I join in celebrating your happiness.)",
+                "concept" =>
+                    "Nderek mangayubagya. (I join in celebrating your happiness.)",
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'To start a hopeful wish or prayer, you say:',
+                "question" => "To start a hopeful wish or prayer, you say:",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Mugi-mugi...",
+                "answer" => "Mugi-mugi",
                 "is_learning" => true,
                 "concept" => "Mugi-mugi... (I hope that...)",
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'When walking behind an elder, you say:',
+                "question" => "When walking behind an elder, you say:",
                 "module_id" => 8,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Nderekaken.",
@@ -344,7 +351,8 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'An elder gives their blessing. This action is called:',
+                "question" =>
+                    "An elder gives their blessing. This action is called:",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Paring pangestu.",
@@ -353,7 +361,8 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'To say you were invited, you say: Kula ________.',
+                "question" =>
+                    "To say you were invited, you say: Kula ________.",
                 "module_id" => 8,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "dipun aturi.",
@@ -367,13 +376,14 @@ class QuizSeeder8 extends Seeder
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Matur sembah nuwun.",
                 "is_learning" => true,
-                "concept" => "Matur sembah nuwun. (Thank you very much - highest form.)",
+                "concept" =>
+                    "Matur sembah nuwun. (Thank you very much - highest form.)",
                 "javanese_type_id" => 3, // Krama Inggil
             ],
 
             // Final Quiz - Krama Inggil
             [
-                "question" => 'Nderek mangayubagya is a phrase for...',
+                "question" => "Nderek mangayubagya is a phrase for...",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Congratulating",
@@ -382,7 +392,7 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'The phrase Paring pangestu means:',
+                "question" => "The phrase Paring pangestu means:",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "To give a blessing",
@@ -400,7 +410,8 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'How do you respectfully say you are walking behind an elder?',
+                "question" =>
+                    "How do you respectfully say you are walking behind an elder?",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Nderekaken.",
@@ -409,10 +420,10 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'To start a hopeful wish, you say:',
+                "question" => "To start a hopeful wish, you say:",
                 "module_id" => 8,
                 "type_id" => 2, // Fill in the Blank
-                "answer" => "Mugi-mugi...",
+                "answer" => "Mugi-mugi",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 3, // Krama Inggil
@@ -436,7 +447,8 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'To congratulate the hosts of a wedding, you say:',
+                "question" =>
+                    "To congratulate the hosts of a wedding, you say:",
                 "module_id" => 8,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Nderek mangayubagya.",
@@ -447,7 +459,8 @@ class QuizSeeder8 extends Seeder
 
             // Lesson 8.4: Gladhen Kahanan (Situational Practice)
             [
-                "question" => 'You did well on an exam and want to tell your friend. You say:',
+                "question" =>
+                    "You did well on an exam and want to tell your friend. You say:",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Aku entuk biji apik!",
@@ -456,7 +469,8 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'You need to inform your manager that you will be working overtime tonight. You say:',
+                "question" =>
+                    "You need to inform your manager that you will be working overtime tonight. You say:",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Pak, kula badhe lembur dalu niki.",
@@ -465,7 +479,8 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'You are at a wedding and want to congratulate the bride\'s parents, who are respected community figures. You say:',
+                "question" =>
+                    'You are at a wedding and want to congratulate the bride\'s parents, who are respected community figures. You say:',
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Nderek mangayubagya, Pak.",
@@ -474,7 +489,8 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'Your friend complains that the teacher is fierce. They say:',
+                "question" =>
+                    "Your friend complains that the teacher is fierce. They say:",
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Gurune galak.",
@@ -483,7 +499,8 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'A new employee is telling their boss they have finished a task. They say: "Pak, tugase wis tak garap." Which part of the phrase is too casual for a boss?',
+                "question" =>
+                    'A new employee is telling their boss they have finished a task. They say: "Pak, tugase wis tak garap." Which part of the phrase is too casual for a boss?',
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "wis tak garap",
@@ -492,7 +509,8 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'You are at a formal ceremony and an elder offers you a seat. You reply: "Nggih, matur nuwun." Which phrase, while polite, could be more respectful for the situation?',
+                "question" =>
+                    'You are at a formal ceremony and an elder offers you a seat. You reply: "Nggih, matur nuwun." Which phrase, while polite, could be more respectful for the situation?',
                 "module_id" => 8,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "matur nuwun",
@@ -501,7 +519,8 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'To politely say "The schedule is tight" to a colleague, you say: Jadwalipun ______',
+                "question" =>
+                    'To politely say "The schedule is tight" to a colleague, you say: Jadwalipun ______',
                 "module_id" => 8,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "padhet",
@@ -510,7 +529,8 @@ class QuizSeeder8 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'A respectful way to say "Welcome" to guests at a formal event is: Sugeng ______',
+                "question" =>
+                    'A respectful way to say "Welcome" to guests at a formal event is: Sugeng ______',
                 "module_id" => 8,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "rawuh",

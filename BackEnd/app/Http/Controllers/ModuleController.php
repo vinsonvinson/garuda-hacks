@@ -110,7 +110,7 @@ class ModuleController extends Controller
 
         $question = Quiz::findOrFail($request->question_id);
 
-        // Normalisasi jawaban (hilangkan tanda baca, spasi ekstra, dan jadikan huruf kecil)
+        // Normalisasi jawaban (hilangkan tanda baca, spasi, dan jadikan huruf kecil)
         $cleanDbAnswer = strtolower(
             preg_replace("/[^\p{L}\p{N}\s]/u", "", $question->answer)
         );
@@ -118,9 +118,9 @@ class ModuleController extends Controller
             preg_replace("/[^\p{L}\p{N}\s]/u", "", $request->answer)
         );
 
-        // Opsional: hilangkan spasi di awal/akhir dan spasi ganda
-        $cleanDbAnswer = preg_replace("/\s+/", " ", trim($cleanDbAnswer));
-        $cleanUserAnswer = preg_replace("/\s+/", " ", trim($cleanUserAnswer));
+        // Hilangkan semua spasi (termasuk di tengah kata)
+        $cleanDbAnswer = preg_replace("/\s+/", "", $cleanDbAnswer);
+        $cleanUserAnswer = preg_replace("/\s+/", "", $cleanUserAnswer);
 
         if ($cleanDbAnswer === $cleanUserAnswer) {
             return response()->json([
@@ -132,6 +132,7 @@ class ModuleController extends Controller
         return response()->json([
             "message" => "Incorrect answer.",
             "is_correct" => false,
+            "correct_answer" => $question->answer,
         ]);
     }
 

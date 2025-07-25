@@ -66,11 +66,11 @@ class ChoiceSeeder2 extends Seeder
             // Quiz ID 62: "How do you say 'I am from...'" (MC)
             [
                 "quiz_id" => 62,
-                "text" => "Aku saka...",
+                "text" => "Aku saka",
             ],
             [
                 "quiz_id" => 62,
-                "text" => "Jenengku...",
+                "text" => "Jenengku",
             ],
             // Quiz ID 63: "The phrase Omahmu ngendi? asks about..." (MC)
             [
@@ -115,25 +115,25 @@ class ChoiceSeeder2 extends Seeder
             ],
             [
                 "quiz_id" => 70,
-                "text" => "Panggenan kula ing...",
+                "text" => "Panggenan kula ing",
             ],
             // Quiz ID 71: "To say 'I am from Surabaya,' you say:" (FIB - no choices)
 
             // Quiz ID 72: "How do you say 'I live at...'?" (MC)
             [
                 "quiz_id" => 72,
-                "text" => "Panggenan kula ing...",
+                "text" => "Panggenan kula ing",
             ],
             [
                 "quiz_id" => 72,
-                "text" => "Nyambut damel...",
+                "text" => "Nyambut damel",
             ],
             // Quiz ID 73: "To state your job, you say:" (FIB - no choices)
 
             // Quiz ID 74: "How do you politely state your age?" (MC)
             [
                 "quiz_id" => 74,
-                "text" => "Yuswa kula...",
+                "text" => "Yuswa kula",
             ],
             [
                 "quiz_id" => 74,
@@ -155,11 +155,11 @@ class ChoiceSeeder2 extends Seeder
             // Quiz ID 77: "How do you politely say 'I am from...'?" (MC)
             [
                 "quiz_id" => 77,
-                "text" => "Aku saka...",
+                "text" => "Aku saka",
             ],
             [
                 "quiz_id" => 77,
-                "text" => "Kula saking...",
+                "text" => "Kula saking",
             ],
             // Quiz ID 78: "The phrase Panggenan kula ing... refers to your..." (MC)
             [
@@ -173,18 +173,18 @@ class ChoiceSeeder2 extends Seeder
             // Quiz ID 79: "The polite way to say 'My age is...' is..." (MC)
             [
                 "quiz_id" => 79,
-                "text" => "Umurku...",
+                "text" => "Umurku",
             ],
             [
                 "quiz_id" => 79,
-                "text" => "Yuswa kula...",
+                "text" => "Yuswa kula",
             ],
             // Quiz ID 80: (FIB - no choices)
             // Quiz ID 81: (FIB - no choices)
             // Quiz ID 82: "Which phrase means 'Let me introduce myself, my name is...'?" (MC)
             [
                 "quiz_id" => 82,
-                "text" => "Nepangaken, nami kula...",
+                "text" => "Nepangaken, nami kula",
             ],
             [
                 "quiz_id" => 82,
@@ -208,31 +208,31 @@ class ChoiceSeeder2 extends Seeder
             // Quiz ID 86: "The respectful term for 'My mother' is..." (MC)
             [
                 "quiz_id" => 86,
-                "text" => "Ibu kula...",
+                "text" => "Ibu kula",
             ],
             [
                 "quiz_id" => 86,
-                "text" => "Emakku...",
+                "text" => "Emakku",
             ],
             // Quiz ID 87: "How do you refer to an elder's child?" (MC)
             [
                 "quiz_id" => 87,
-                "text" => "Putra panjenengan...",
+                "text" => "Putra panjenengan",
             ],
             [
                 "quiz_id" => 87,
-                "text" => "Anakmu...",
+                "text" => "Anakmu",
             ],
             // Quiz ID 88: (FIB - no choices)
             // Quiz ID 89: (FIB - no choices)
             // Quiz ID 90: "The general term for 'relative' is:" (MC)
             [
                 "quiz_id" => 90,
-                "text" => "Sedherek kula...",
+                "text" => "Sedherek kula",
             ],
             [
                 "quiz_id" => 90,
-                "text" => "Konco kula...",
+                "text" => "Konco kula",
             ],
 
             // Final Quiz - Krama Inggil
@@ -248,20 +248,20 @@ class ChoiceSeeder2 extends Seeder
             // Quiz ID 92: "How do you respectfully refer to an elder's spouse?" (MC)
             [
                 "quiz_id" => 92,
-                "text" => "Bojomu...",
+                "text" => "Bojomu",
             ],
             [
                 "quiz_id" => 92,
-                "text" => "Garwa panjenengan...",
+                "text" => "Garwa panjenengan",
             ],
             // Quiz ID 93: "The respectful term for 'My mother' is..." (MC)
             [
                 "quiz_id" => 93,
-                "text" => "Ibu kula...",
+                "text" => "Ibu kula",
             ],
             [
                 "quiz_id" => 93,
-                "text" => "Simbokku...",
+                "text" => "Simbokku",
             ],
             // Quiz ID 94: "The term Eyang kakung refers to..." (MC)
             [
@@ -277,11 +277,11 @@ class ChoiceSeeder2 extends Seeder
             // Quiz ID 97: "Which phrase means 'Your son/daughter...'?" (MC)
             [
                 "quiz_id" => 97,
-                "text" => "Putra panjenengan...",
+                "text" => "Putra panjenengan",
             ],
             [
                 "quiz_id" => 97,
-                "text" => "Anakmu...",
+                "text" => "Anakmu",
             ],
             // Quiz ID 98: (FIB - no choices)
 
@@ -316,15 +316,15 @@ class ChoiceSeeder2 extends Seeder
             // Quiz ID 101: "You are in a job interview..." (MC)
             [
                 "quiz_id" => 101,
-                "text" => "Umurku...",
+                "text" => "Umurku",
             ],
             [
                 "quiz_id" => 101,
-                "text" => "Yuswa kula...",
+                "text" => "Yuswa kula",
             ],
             [
                 "quiz_id" => 101,
-                "text" => "Pagaweanmu...",
+                "text" => "Pagaweanmu",
             ],
             // Quiz ID 102: "You're talking to your friend about their family..." (MC)
             [

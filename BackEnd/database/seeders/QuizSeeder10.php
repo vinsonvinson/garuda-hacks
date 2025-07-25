@@ -20,20 +20,20 @@ class QuizSeeder10 extends Seeder
             // Learning Phase - Ngoko
             // Concept: Mau isuk... (This morning...)
             [
-                "question" => 'How do you start a story about this morning?',
+                "question" => "How do you start a story about this morning?",
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Mau isuk...",
+                "answer" => "Mau isuk",
                 "is_learning" => true,
                 "concept" => "Mau isuk... (This morning...)",
                 "javanese_type_id" => 1, // Ngoko
             ],
             // Concept: Terus, aku... (Then, I...)
             [
-                "question" => 'To say what happened next, you say:',
+                "question" => "To say what happened next, you say:",
                 "module_id" => 10,
                 "type_id" => 2, // Fill in the Blank
-                "answer" => "Terus, aku...",
+                "answer" => "Terus, aku",
                 "is_learning" => true,
                 "concept" => "Terus, aku... (Then, I...)",
                 "javanese_type_id" => 1, // Ngoko
@@ -43,17 +43,17 @@ class QuizSeeder10 extends Seeder
                 "question" => 'Which phrase means "After that..."?',
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Bar kuwi...",
+                "answer" => "Bar kuwi",
                 "is_learning" => true,
                 "concept" => "Bar kuwi... (After that...)",
                 "javanese_type_id" => 1, // Ngoko
             ],
             // Concept: Jebule... (Turns out...)
             [
-                "question" => 'To reveal a surprising fact, you say:',
+                "question" => "To reveal a surprising fact, you say:",
                 "module_id" => 10,
                 "type_id" => 2, // Fill in the Blank
-                "answer" => "Jebule...",
+                "answer" => "Jebule",
                 "is_learning" => true,
                 "concept" => "Jebule... (Turns out...)",
                 "javanese_type_id" => 1, // Ngoko
@@ -63,27 +63,27 @@ class QuizSeeder10 extends Seeder
                 "question" => 'How do you say "Suddenly..."?',
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Dumadakan...",
+                "answer" => "Dumadakan",
                 "is_learning" => true,
                 "concept" => "Dumadakan... (Suddenly...)",
                 "javanese_type_id" => 1, // Ngoko
             ],
             // Concept: Untunge... (Luckily...)
             [
-                "question" => 'To say "Luckily...", you say:',
+                "question" => 'To say "Luckily", you say:',
                 "module_id" => 10,
                 "type_id" => 2, // Fill in the Blank
-                "answer" => "Untunge...",
+                "answer" => "Untunge",
                 "is_learning" => true,
                 "concept" => "Untunge... (Luckily...)",
                 "javanese_type_id" => 1, // Ngoko
             ],
             // Concept: Akhire... (Finally...)
             [
-                "question" => 'The word to end your story is:',
+                "question" => "The word to end your story is:",
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Akhire...",
+                "answer" => "Akhire",
                 "is_learning" => true,
                 "concept" => "Akhire... (Finally...)",
                 "javanese_type_id" => 1, // Ngoko
@@ -91,10 +91,10 @@ class QuizSeeder10 extends Seeder
 
             // Final Quiz - Ngoko
             [
-                "question" => 'Jebule... means...',
+                "question" => "Jebule... means...",
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Turns out...",
+                "answer" => "Turns out",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 1, // Ngoko
@@ -103,16 +103,16 @@ class QuizSeeder10 extends Seeder
                 "question" => 'How do you say "Luckily..."?',
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Untunge...",
+                "answer" => "Untunge",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 1, // Ngoko
             ],
             [
-                "question" => 'The phrase Bar kuwi... means...',
+                "question" => "The phrase Bar kuwi... means...",
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "After that...",
+                "answer" => "After that",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 1, // Ngoko
@@ -121,25 +121,25 @@ class QuizSeeder10 extends Seeder
                 "question" => 'How do you say "This morning..."?',
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Mau isuk...",
+                "answer" => "Mau isuk",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 1, // Ngoko
             ],
             [
-                "question" => 'To say "Then, I...", you say:',
+                "question" => 'To say "Then, I", you say:',
                 "module_id" => 10,
                 "type_id" => 2, // Fill in the Blank
-                "answer" => "Terus, aku...",
+                "answer" => "Terus, aku",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 1, // Ngoko
             ],
             [
-                "question" => 'To say "Finally...", you say:',
+                "question" => 'To say "Finally", you say:',
                 "module_id" => 10,
                 "type_id" => 2, // Fill in the Blank
-                "answer" => "Akhire...",
+                "answer" => "Akhire",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 1, // Ngoko
@@ -148,16 +148,16 @@ class QuizSeeder10 extends Seeder
                 "question" => 'Which phrase means "Suddenly..."?',
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Dumadakan...",
+                "answer" => "Dumadakan",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 1, // Ngoko
             ],
             [
-                "question" => 'To say "After that...", you say:',
+                "question" => 'To say "After that", you say:',
                 "module_id" => 10,
                 "type_id" => 2, // Fill in the Blank
-                "answer" => "Bar kuwi...",
+                "answer" => "Bar kuwi",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 1, // Ngoko
@@ -167,7 +167,7 @@ class QuizSeeder10 extends Seeder
 
             // Learning Phase - Krama Madya
             [
-                "question" => 'How do you politely agree?',
+                "question" => "How do you politely agree?",
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Inggih, leres.",
@@ -185,16 +185,18 @@ class QuizSeeder10 extends Seeder
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'To politely express an assumption, you start with:',
+                "question" =>
+                    "To politely express an assumption, you start with:",
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Kadosipun...",
+                "answer" => "Kadosipun",
                 "is_learning" => true,
                 "concept" => "Kadosipun... (It seems...)",
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'To politely say something is incorrect, you say:',
+                "question" =>
+                    "To politely say something is incorrect, you say:",
                 "module_id" => 10,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Sanes.",
@@ -221,10 +223,10 @@ class QuizSeeder10 extends Seeder
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'To politely give your opinion, you start with:',
+                "question" => "To politely give your opinion, you start with:",
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Miturut kula...",
+                "answer" => "Miturut kula",
                 "is_learning" => true,
                 "concept" => "Miturut kula... (In my opinion...)",
                 "javanese_type_id" => 2, // Krama Madya
@@ -232,7 +234,7 @@ class QuizSeeder10 extends Seeder
 
             // Final Quiz - Krama Madya
             [
-                "question" => 'Dereng means...',
+                "question" => "Dereng means...",
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Not yet",
@@ -250,16 +252,16 @@ class QuizSeeder10 extends Seeder
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'The phrase Kadosipun... means...',
+                "question" => "The phrase Kadosipun... means...",
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "It seems...",
+                "answer" => "It seems",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'How do you politely agree?',
+                "question" => "How do you politely agree?",
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Inggih, leres.",
@@ -268,7 +270,8 @@ class QuizSeeder10 extends Seeder
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'To politely say something is incorrect, you say:',
+                "question" =>
+                    "To politely say something is incorrect, you say:",
                 "module_id" => 10,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Sanes.",
@@ -289,7 +292,7 @@ class QuizSeeder10 extends Seeder
                 "question" => 'Which phrase means "In my opinion..."?',
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Miturut kula...",
+                "answer" => "Miturut kula",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 2, // Krama Madya
@@ -308,10 +311,10 @@ class QuizSeeder10 extends Seeder
 
             // Learning Phase - Krama Inggil
             [
-                "question" => 'To respectfully quote an elder, you start with:',
+                "question" => "To respectfully quote an elder, you start with:",
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Ngendikanipun...",
+                "answer" => "Ngendikanipun",
                 "is_learning" => true,
                 "concept" => "Ngendikanipun... (He/She said...)",
                 "javanese_type_id" => 3, // Krama Inggil
@@ -362,7 +365,7 @@ class QuizSeeder10 extends Seeder
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'To say an elder was given something, you use:',
+                "question" => "To say an elder was given something, you use:",
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Dipun paringi",
@@ -373,7 +376,7 @@ class QuizSeeder10 extends Seeder
 
             // Final Quiz - Krama Inggil
             [
-                "question" => 'Gerah is the respectful word for...',
+                "question" => "Gerah is the respectful word for...",
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Sick",
@@ -391,16 +394,17 @@ class QuizSeeder10 extends Seeder
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'The phrase Ngendikanipun... means...',
+                "question" => "The phrase Ngendikanipun... means...",
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "He/She said...",
+                "answer" => "He/She said",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 3, // Krama Inggil
             ],
             [
-                "question" => 'How do you respectfully say an elder is sleeping?',
+                "question" =>
+                    "How do you respectfully say an elder is sleeping?",
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Nembe sare.",
@@ -447,16 +451,18 @@ class QuizSeeder10 extends Seeder
 
             // Lesson 10.4: Gladhen Crita (Narration Practice)
             [
-                "question" => 'You are telling your friend a surprising story. You say:',
+                "question" =>
+                    "You are telling your friend a surprising story. You say:",
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Jebule...",
+                "answer" => "Jebule",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'Your manager asks if you have finished your report. You have. You politely reply:',
+                "question" =>
+                    "Your manager asks if you have finished your report. You have. You politely reply:",
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Sampun, Pak.",
@@ -465,16 +471,18 @@ class QuizSeeder10 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'You are telling your teacher what your grandfather said. You start the sentence with:',
+                "question" =>
+                    "You are telling your teacher what your grandfather said. You start the sentence with:",
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Ngendikanipun eyang...",
+                "answer" => "Ngendikanipun eyang",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'Your friend asks if you are coming to the party. You haven\'t decided yet. You say:',
+                "question" =>
+                    'Your friend asks if you are coming to the party. You haven\'t decided yet. You say:',
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "Dereng.",
@@ -483,7 +491,8 @@ class QuizSeeder10 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'A student is politely answering their teacher\'s question. They say: "Miturut kula, jawabane salah." Which word is not polite enough?',
+                "question" =>
+                    'A student is politely answering their teacher\'s question. They say: "Miturut kula, jawabane salah." Which word is not polite enough?',
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "jawabane",
@@ -492,7 +501,8 @@ class QuizSeeder10 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'You are telling your boss about your father. You say: "Bapak kula nembe lara." Which word is too casual?',
+                "question" =>
+                    'You are telling your boss about your father. You say: "Bapak kula nembe lara." Which word is too casual?',
                 "module_id" => 10,
                 "type_id" => 1, // Multiple Choice
                 "answer" => "lara",
@@ -501,7 +511,8 @@ class QuizSeeder10 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'To politely say "Yes, that is correct" to a colleague, you say: Inggih, ______',
+                "question" =>
+                    'To politely say "Yes, that is correct" to a colleague, you say: Inggih, ______',
                 "module_id" => 10,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "leres",
@@ -510,7 +521,8 @@ class QuizSeeder10 extends Seeder
                 "javanese_type_id" => 4, // Gladhen
             ],
             [
-                "question" => 'The respectful verb for "to sleep" when talking about an elder is: ______',
+                "question" =>
+                    'The respectful verb for "to sleep" when talking about an elder is: ______',
                 "module_id" => 10,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "sare",

@@ -273,11 +273,11 @@ class ChoiceSeeder9 extends Seeder
             // Quiz ID 465: "How do you respectfully quote what an elder said?" (MC)
             [
                 "quiz_id" => 465,
-                "text" => "Jarene...",
+                "text" => "Jarene",
             ],
             [
                 "quiz_id" => 465,
-                "text" => "Ngendikanipun...",
+                "text" => "Ngendikanipun",
             ],
             // Quiz ID 466: (FIB - no choices)
             // Quiz ID 467: (FIB - no choices)

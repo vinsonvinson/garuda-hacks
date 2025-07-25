@@ -19,11 +19,11 @@ class ChoiceSeeder10 extends Seeder
             // Quiz ID 478: "How do you start a story about this morning?" (MC)
             [
                 "quiz_id" => 478,
-                "text" => "Mau isuk...",
+                "text" => "Mau isuk",
             ],
             [
                 "quiz_id" => 478,
-                "text" => "Mau bengi...",
+                "text" => "Mau bengi",
             ],
             // Quiz ID 479: (FIB - no choices)
             // Quiz ID 480: "Which phrase means 'After that...'?" (MC)
@@ -33,17 +33,17 @@ class ChoiceSeeder10 extends Seeder
             ],
             [
                 "quiz_id" => 480,
-                "text" => "Bar kuwi...",
+                "text" => "Bar kuwi",
             ],
             // Quiz ID 481: (FIB - no choices)
             // Quiz ID 482: "How do you say 'Suddenly...'?" (MC)
             [
                 "quiz_id" => 482,
-                "text" => "Dumadakan...",
+                "text" => "Dumadakan",
             ],
             [
                 "quiz_id" => 482,
-                "text" => "Untunge...",
+                "text" => "Untunge",
             ],
             // Quiz ID 483: (FIB - no choices)
             // Quiz ID 484: "The word to end your story is:" (MC)
@@ -53,56 +53,56 @@ class ChoiceSeeder10 extends Seeder
             ],
             [
                 "quiz_id" => 484,
-                "text" => "Akhire...",
+                "text" => "Akhire",
             ],
 
             // Final Quiz - Ngoko
             // Quiz ID 485: "Jebule... means..." (MC)
             [
                 "quiz_id" => 485,
-                "text" => "Suddenly...",
+                "text" => "Suddenly",
             ],
             [
                 "quiz_id" => 485,
-                "text" => "Turns out...",
+                "text" => "Turns out",
             ],
             // Quiz ID 486: "How do you say 'Luckily...'?" (MC)
             [
                 "quiz_id" => 486,
-                "text" => "Dumadakan...",
+                "text" => "Dumadakan",
             ],
             [
                 "quiz_id" => 486,
-                "text" => "Untunge...",
+                "text" => "Untunge",
             ],
             // Quiz ID 487: "The phrase Bar kuwi... means..." (MC)
             [
                 "quiz_id" => 487,
-                "text" => "Before that...",
+                "text" => "Before that",
             ],
             [
                 "quiz_id" => 487,
-                "text" => "After that...",
+                "text" => "After that",
             ],
             // Quiz ID 488: "How do you say 'This morning...'?" (MC)
             [
                 "quiz_id" => 488,
-                "text" => "Mau awan...",
+                "text" => "Mau awan",
             ],
             [
                 "quiz_id" => 488,
-                "text" => "Mau isuk...",
+                "text" => "Mau isuk",
             ],
             // Quiz ID 489: (FIB - no choices)
             // Quiz ID 490: (FIB - no choices)
             // Quiz ID 491: "Which phrase means 'Suddenly...'?" (MC)
             [
                 "quiz_id" => 491,
-                "text" => "Dumadakan...",
+                "text" => "Dumadakan",
             ],
             [
                 "quiz_id" => 491,
-                "text" => "Untunge...",
+                "text" => "Untunge",
             ],
             // Quiz ID 492: (FIB - no choices)
 
@@ -122,7 +122,7 @@ class ChoiceSeeder10 extends Seeder
             // Quiz ID 495: "To politely express an assumption, you start with:" (MC)
             [
                 "quiz_id" => 495,
-                "text" => "Kadosipun...",
+                "text" => "Kadosipun",
             ],
             [
                 "quiz_id" => 495,
@@ -142,11 +142,11 @@ class ChoiceSeeder10 extends Seeder
             // Quiz ID 499: "To politely give your opinion, you start with:" (MC)
             [
                 "quiz_id" => 499,
-                "text" => "Jareku...",
+                "text" => "Jareku",
             ],
             [
                 "quiz_id" => 499,
-                "text" => "Miturut kula...",
+                "text" => "Miturut kula",
             ],
 
             // Final Quiz - Krama Madya
@@ -171,11 +171,11 @@ class ChoiceSeeder10 extends Seeder
             // Quiz ID 502: "The phrase Kadosipun... means..." (MC)
             [
                 "quiz_id" => 502,
-                "text" => "It seems...",
+                "text" => "It seems",
             ],
             [
                 "quiz_id" => 502,
-                "text" => "In my opinion...",
+                "text" => "In my opinion",
             ],
             // Quiz ID 503: "How do you politely agree?" (MC)
             [
@@ -191,11 +191,11 @@ class ChoiceSeeder10 extends Seeder
             // Quiz ID 506: "Which phrase means 'In my opinion...'?" (MC)
             [
                 "quiz_id" => 506,
-                "text" => "Miturut kula...",
+                "text" => "Miturut kula",
             ],
             [
                 "quiz_id" => 506,
-                "text" => "Kadosipun...",
+                "text" => "Kadosipun",
             ],
             // Quiz ID 507: (FIB - no choices)
 
@@ -205,11 +205,11 @@ class ChoiceSeeder10 extends Seeder
             // Quiz ID 508: "To respectfully quote an elder, you start with:" (MC)
             [
                 "quiz_id" => 508,
-                "text" => "Jarene...",
+                "text" => "Jarene",
             ],
             [
                 "quiz_id" => 508,
-                "text" => "Ngendikanipun...",
+                "text" => "Ngendikanipun",
             ],
             // Quiz ID 509: (FIB - no choices)
             // Quiz ID 510: "The respectful verb for 'to eat' is:" (MC)
@@ -264,11 +264,11 @@ class ChoiceSeeder10 extends Seeder
             // Quiz ID 517: "The phrase Ngendikanipun... means..." (MC)
             [
                 "quiz_id" => 517,
-                "text" => "He/She thinks...",
+                "text" => "He/She thinks",
             ],
             [
                 "quiz_id" => 517,
-                "text" => "He/She said...",
+                "text" => "He/She said",
             ],
             // Quiz ID 518: "How do you respectfully say an elder is sleeping?" (MC)
             [
@@ -297,15 +297,15 @@ class ChoiceSeeder10 extends Seeder
             // Quiz ID 523: "You are telling your friend a surprising story. You say:" (MC)
             [
                 "quiz_id" => 523,
-                "text" => "Jebule...",
+                "text" => "Jebule",
             ],
             [
                 "quiz_id" => 523,
-                "text" => "Kadosipun...",
+                "text" => "Kadosipun",
             ],
             [
                 "quiz_id" => 523,
-                "text" => "Miturut kula...",
+                "text" => "Miturut kula",
             ],
             // Quiz ID 524: "Your manager asks if you have finished your report. You have. You politely reply:" (MC)
             [
@@ -323,15 +323,15 @@ class ChoiceSeeder10 extends Seeder
             // Quiz ID 525: "You are telling your teacher what your grandfather said." (MC)
             [
                 "quiz_id" => 525,
-                "text" => "Jarene simbah...",
+                "text" => "Jarene simbah",
             ],
             [
                 "quiz_id" => 525,
-                "text" => "Simbah ngomong...",
+                "text" => "Simbah ngomong",
             ],
             [
                 "quiz_id" => 525,
-                "text" => "Ngendikanipun eyang...",
+                "text" => "Ngendikanipun eyang",
             ],
             // Quiz ID 526: "Your friend asks if you are coming to the party. You haven't decided yet. You say:" (MC)
             [

@@ -103,7 +103,7 @@ class QuizSeeder2 extends Seeder
                 "question" => 'How do you say "I am from..."',
                 "module_id" => 2,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Aku saka...",
+                "answer" => "Aku saka",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 1, // Ngoko
@@ -127,7 +127,7 @@ class QuizSeeder2 extends Seeder
                 "javanese_type_id" => 1, // Ngoko
             ],
             [
-                "question" => 'To say "My name is...", you say:',
+                "question" => 'To say "My name is", you say:',
                 "module_id" => 2,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Jenengku",
@@ -154,7 +154,7 @@ class QuizSeeder2 extends Seeder
                 "javanese_type_id" => 1, // Ngoko
             ],
             [
-                "question" => 'To say "I am from...", you say:',
+                "question" => 'To say "I am from", you say:',
                 "module_id" => 2,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Aku saka",
@@ -197,7 +197,7 @@ class QuizSeeder2 extends Seeder
                 "question" => 'How do you say "I live at..."?',
                 "module_id" => 2,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Panggenan kula ing...",
+                "answer" => "Panggenan kula ing",
                 "is_learning" => true,
                 "concept" => "Panggenan kula ing... (I live at...)",
                 "javanese_type_id" => 2, // Krama Madya
@@ -215,7 +215,7 @@ class QuizSeeder2 extends Seeder
                 "question" => 'How do you politely state your age?',
                 "module_id" => 2,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Yuswa kula...",
+                "answer" => "Yuswa kula",
                 "is_learning" => true,
                 "concept" => "Yuswa kula... (My age is...)",
                 "javanese_type_id" => 2, // Krama Madya
@@ -244,7 +244,7 @@ class QuizSeeder2 extends Seeder
                 "question" => 'How do you politely say "I am from..."?',
                 "module_id" => 2,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Kula saking...",
+                "answer" => "Kula saking",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 2, // Krama Madya
@@ -262,13 +262,13 @@ class QuizSeeder2 extends Seeder
                 "question" => 'The polite way to say "My age is..." is...',
                 "module_id" => 2,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Yuswa kula...",
+                "answer" => "Yuswa kula",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'To say "My age is...", you say:',
+                "question" => 'To say "My age is", you say:',
                 "module_id" => 2,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Yuswa kula",
@@ -277,7 +277,7 @@ class QuizSeeder2 extends Seeder
                 "javanese_type_id" => 2, // Krama Madya
             ],
             [
-                "question" => 'To say "I work as...", you say:',
+                "question" => 'To say "I work as", you say:',
                 "module_id" => 2,
                 "type_id" => 2, // Fill in the Blank
                 "answer" => "Nyambut damel",
@@ -289,7 +289,7 @@ class QuizSeeder2 extends Seeder
                 "question" => 'Which phrase means "Let me introduce myself, my name is..."?',
                 "module_id" => 2,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Nepangaken, nami kula...",
+                "answer" => "Nepangaken, nami kula",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 2, // Krama Madya
@@ -329,7 +329,7 @@ class QuizSeeder2 extends Seeder
                 "question" => 'The respectful term for "My mother" is...',
                 "module_id" => 2,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Ibu kula...",
+                "answer" => "Ibu kula",
                 "is_learning" => true,
                 "concept" => "Ibu kula... (My mother...)",
                 "javanese_type_id" => 3, // Krama Inggil
@@ -338,7 +338,7 @@ class QuizSeeder2 extends Seeder
                 "question" => 'How do you refer to an elder\'s child?',
                 "module_id" => 2,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Putra panjenengan...",
+                "answer" => "Putra panjenengan",
                 "is_learning" => true,
                 "concept" => "Putra panjenengan... (Your son/daughter...)",
                 "javanese_type_id" => 3, // Krama Inggil
@@ -365,7 +365,7 @@ class QuizSeeder2 extends Seeder
                 "question" => 'The general term for "relative" is:',
                 "module_id" => 2,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Sedherek kula...",
+                "answer" => "Sedherek kula",
                 "is_learning" => true,
                 "concept" => "Sedherek kula... (My relative...)",
                 "javanese_type_id" => 3, // Krama Inggil
@@ -385,7 +385,7 @@ class QuizSeeder2 extends Seeder
                 "question" => 'How do you respectfully refer to an elder\'s spouse?',
                 "module_id" => 2,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Garwa panjenengan...",
+                "answer" => "Garwa panjenengan",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 3, // Krama Inggil
@@ -394,7 +394,7 @@ class QuizSeeder2 extends Seeder
                 "question" => 'The respectful term for "My mother" is...',
                 "module_id" => 2,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Ibu kula...",
+                "answer" => "Ibu kula",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 3, // Krama Inggil
@@ -430,7 +430,7 @@ class QuizSeeder2 extends Seeder
                 "question" => 'Which phrase means "Your son/daughter..."?',
                 "module_id" => 2,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Putra panjenengan...",
+                "answer" => "Putra panjenengan",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 3, // Krama Inggil
@@ -468,7 +468,7 @@ class QuizSeeder2 extends Seeder
                 "question" => 'You are in a job interview. When the interviewer asks about your age, which is the most professional way to answer?',
                 "module_id" => 2,
                 "type_id" => 1, // Multiple Choice
-                "answer" => "Yuswa kula...",
+                "answer" => "Yuswa kula",
                 "is_learning" => false,
                 "concept" => null,
                 "javanese_type_id" => 4, // Gladhen
