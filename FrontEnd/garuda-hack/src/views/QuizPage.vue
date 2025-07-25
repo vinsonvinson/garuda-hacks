@@ -32,8 +32,8 @@ onMounted(async () => {
 });
 
 // Computed properties untuk memfilter soal
-const practiceQuestions = computed(() => allQuestions.value.filter(q => q.is_learning === 1));
-const challengeQuestions = computed(() => allQuestions.value.filter(q => q.is_learning === 0));
+const practiceQuestions = computed(() => allQuestions.value.filter(q => q.is_learning === "1"));
+const challengeQuestions = computed(() => allQuestions.value.filter(q => q.is_learning === "0"));
 
 const currentQuestionsSet = computed(() => {
   return quizState.value === 'in_practice' ? practiceQuestions.value : challengeQuestions.value;
@@ -76,6 +76,24 @@ function handleContinueToChallenge() {
   quizState.value = 'in_challenge';
 }
 
+// onMounted(async () => {
+//   const { moduleId, typeId } = route.params;
+//   try {
+//     const response = await ModuleService.getQuestion(moduleId, typeId);
+//     allQuestions.value = response.data.questions;
+//     console.log('Soal didapat:', allQuestions.value); // Debug
+//     console.log('Practice:', practiceQuestions.value); // Debug
+//     console.log('Challenge:', challengeQuestions.value); // Debug
+
+//     setTimeout(() => {
+//       quizState.value = 'in_practice';
+//       console.log('Quiz state:', quizState.value); // Debug
+//     }, 1500); 
+    
+//   } catch (error) {
+//     console.error("Gagal mengambil data kuis:", error);
+//   }
+// });
 </script>
 
 <template>
