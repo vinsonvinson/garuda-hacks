@@ -8,7 +8,7 @@ import ModalQuestion from '../components/base/ModalQuestion.vue';
 const route = useRoute();
 
 // State management
-const quizState = ref('loading'); 
+const quizState = ref(null); 
 const allQuestions = ref([]);
 const currentQuestionIndex = ref(0);
 const score = ref(0);
@@ -16,25 +16,6 @@ const userAnswers = ref([]);
 
 const module = ref(null);
 const javanese_type = ref(null);
-
-// Data Fetching
-onMounted(async () => {
-  const { moduleId, typeId } = route.params;
-  try {
-    const response = await ModuleService.getQuestion(moduleId, typeId);
-    allQuestions.value = response.data.questions;
-    module.value = response.data.module;
-    javanese_type.value = response.data.javanese_type;
-
-    // Mulai alur setelah data didapat
-    setTimeout(() => {
-      quizState.value = 'in_practice';
-    }, 1500); 
-    
-  } catch (error) {
-    console.error("Gagal mengambil data kuis:", error);
-  }
-});
 
 // Computed properties untuk memfilter soal
 const practiceQuestions = computed(() => allQuestions.value.filter(q => q.is_learning === "1"));
@@ -81,6 +62,10 @@ function handleContinueToChallenge() {
   quizState.value = 'in_challenge';
 }
 
+function handleContinueToPractice() {
+  quizState.value = 'in_practice';
+}
+
 onMounted(async () => {
   const { moduleId, typeId } = route.params;
   try {
@@ -89,13 +74,12 @@ onMounted(async () => {
     module.value = response.data.module;
     javanese_type.value = response.data.javanese_type;
 
-    setTimeout(() => {
-      if (practiceQuestions.value.length === 0) {
-        quizState.value = 'in_challenge';
-      } else {
-        quizState.value = 'intro_practice';
-      }
-    }, 1500); 
+    // Ubah quizState setelah data didapat
+    if (practiceQuestions.value.length === 0) {
+      quizState.value = 'intro_challenge';
+    } else {
+      quizState.value = 'intro_practice';
+    }
   } catch (error) {
     console.error("Gagal mengambil data kuis:", error);
   }
@@ -107,7 +91,12 @@ onMounted(async () => {
     <div v-if="quizState === 'loading'" class="flex items-center justify-center min-h-screen bg-white/80 z-50">
       <div class="loader"></div>
     </div>
-    <ModalQuiz v-if="quizState === 'intro_practice'" title="Practice" />
+    <ModalQuiz 
+      v-if="quizState === 'intro_practice'" 
+      title="Practice" 
+      :show-button="true"
+      @continue="handleContinueToPractice"
+    />
     
     <ModalQuestion
       v-if="(quizState === 'in_practice' || quizState === 'in_challenge') && currentQuestionData"
