@@ -16,6 +16,8 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
+        User::truncate();
+
         User::create([
             'name' => 'Vinson',
             'email' => 'vinsonleonardi@gmail.com',
@@ -41,5 +43,29 @@ class DatabaseSeeder extends Seeder
 
         $this->call(QuizSeeder2::class);
         $this->call(ChoiceSeeder2::class);
+
+        $this->call(QuizSeeder3::class);
+        $this->call(ChoiceSeeder3::class);
+
+        $this->call(QuizSeeder4::class);
+        $this->call(ChoiceSeeder4::class);
+
+        $this->call(QuizSeeder5::class);
+        $this->call(ChoiceSeeder5::class);
+
+        $this->call(QuizSeeder6::class);
+        $this->call(ChoiceSeeder6::class);
+
+        $this->call(QuizSeeder7::class);
+        $this->call(ChoiceSeeder7::class);
+
+        $this->call(QuizSeeder8::class);
+        $this->call(ChoiceSeeder8::class);
+
+        $this->call(QuizSeeder9::class);
+        $this->call(ChoiceSeeder9::class);
+
+        $this->call(QuizSeeder10::class);
+        $this->call(ChoiceSeeder10::class);
     }
 }
