@@ -1,7 +1,6 @@
 <script setup>
 import { ref, onMounted, computed, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
-import axios from 'axios';
 import { storeToRefs } from 'pinia';
 import { useAuthStore } from '../../stores/auth';
 import InputField from '@/components/input/InputField.vue';

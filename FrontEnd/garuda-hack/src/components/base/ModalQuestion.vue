@@ -200,25 +200,30 @@ watch(showAskAIButton, (val) => {
           </div>
         </div>
       
-      <div class="flex justify-between items-center mt-8">
-        <div v-if="isChallenge" class="bg-gray-800 text-white font-bold px-6 py-2 rounded-lg">
-          SCORE: {{ score }}%
-        </div>
-        <div v-else></div>
+<div class="mt-8 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
+  <div v-if="isChallenge" class="bg-gray-800 text-white font-bold px-6 py-2 rounded-lg text-center sm:text-left">
+    SCORE: {{ score }}%
+  </div>
+  <div v-else class="hidden sm:block"></div>
 
-        <div class="flex items-center space-x-4">
-            <button v-if="showAskAIButton" @click="handleAskAI" :disabled="isSubmittingAI" class="px-10 py-3 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 disabled:bg-blue-300">
-                {{ isSubmittingAI ? 'Loading...' : 'Ask AI' }}
+          <div class="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+            <button
+              v-if="showAskAIButton"
+              @click="handleAskAI"
+              :disabled="isSubmittingAI"
+              class="px-10 py-3 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 disabled:bg-blue-300 w-full sm:w-auto"
+            >
+              {{ isSubmittingAI ? 'Loading...' : 'Ask AI' }}
             </button>
             <button
               @click="hasUsedAskAI ? proceedToNextQuestion() : (aiButton ? proceedToNextQuestion() : submit())"
-              class="px-10 py-3 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 disabled:bg-orange-300"
+              class="px-10 py-3 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 disabled:bg-orange-300 w-full sm:w-auto"
               :disabled="!aiButton && (questionData.choices.length > 0 ? !selectedAnswer : !textAnswer || textAnswer === '0')"
             >
               NEXT
             </button>
+          </div>
         </div>
-      </div>
     </div>
   </div>
 </template>
