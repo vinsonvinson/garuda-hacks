@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'JawaPalsu';
+    src: url('../../public/fonts/JAWAPALSU.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
